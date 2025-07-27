@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function inProgress(){
     return (
-        <div className = "flex flex-col items-center justify-center min-h-screen p-5 gap-4">
+        <div className = "flex flex-col items-center justify-center min-h-screen p-5 gap-4 bg-brandWhite">
             <Image
                 src="/mascot-sweat.png"
                 alt="Hansei Logo"
