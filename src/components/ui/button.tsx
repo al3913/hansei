@@ -52,7 +52,7 @@ function Button({
   const Comp = asChild ? Slot : "button"
   const router = useRouter();
   const buttonActions = {
-    booking: () => window.location.href = "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZUB4iP48Eb3A_abrCxMCtnuinmS1ydL9RzKW3K8-ZvV8KR-wl-BXY7xLYSLYWZ9fjrpM7cVOm",
+    booking: () => window.open("https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZUB4iP48Eb3A_abrCxMCtnuinmS1ydL9RzKW3K8-ZvV8KR-wl-BXY7xLYSLYWZ9fjrpM7cVOm"),
     home: () => router.push("/"),
     inProgress: () => router.push("/inProgress"),
   }
