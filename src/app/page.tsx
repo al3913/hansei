@@ -5,7 +5,7 @@ import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import Solution from "@/components/sections/Solution";
-import Card from "@/components/ui/Card";
+//import Card from "@/components/ui/Card";
 
 export default function Home() {
   return (
@@ -15,7 +15,6 @@ export default function Home() {
           <Hero/>
           <Problem/>
           <Solution/>
-          <Card/>
           <Footer/>
       </div>
     </div>
