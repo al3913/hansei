@@ -70,7 +70,7 @@ const defaultLegalLinks = [
 const Footer = ({
   logo = {
     url: "https://www.hansei.gg",
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
+    src: "mascot/mascot.svg",
     alt: "logo",
     title: "SAY HELLO",
   },
@@ -87,14 +87,14 @@ const Footer = ({
           <div className="flex w-full flex-col justify-between gap-6 lg:items-start">
             {/* Logo */}
             <div className="flex items-center gap-2 lg:justify-start">
-              {/* <a href={logo.url}>
+              <a href={logo.url}>
                 <img
                   src={logo.src}
                   alt={logo.alt}
                   title={logo.title}
                   className="h-8"
                 />
-              </a> */}
+              </a>
               <h2 className="text-xl font-semibold">{logo.title}</h2>
             </div>
             <p className="text-muted-foreground max-w-[70%] text-sm">

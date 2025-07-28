@@ -9,6 +9,9 @@
 
 @theme {
   --color-brandWhite: #FFFBF2;
+  --color-brandYellow: #FFF242;
+  --color-brandBlue: #2ABEE3;
+  --color-brandRed: #FD7C68;
 }
 
 @theme inline {

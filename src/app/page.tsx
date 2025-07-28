@@ -3,6 +3,7 @@ import {Footer} from "@/components/sections/Footer";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
+import ProblemStatement from "@/components/sections/ProblemStatement";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="flex min-h-screen max-w-screen-lg flex-col items-center justify-between mx-auto px-6">
           <Header/>
           <Hero/>
+          <ProblemStatement/>
           <Footer/>
       </div>
     </div>
