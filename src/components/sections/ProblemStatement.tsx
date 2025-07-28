@@ -9,7 +9,7 @@ const storyboardNumbers = [
 
 export default function ProblemStatement() {
     return (
-        <section className="relative flex flex-col w-full justify-center items-center mx-auto">
+        <section className="relative pb-5 flex flex-col w-full justify-center items-center mx-auto">
             <h3 className="text-center">
                 You're <b><i>streaming regularly</i></b>, but <b><i>Youtube feels overwhelming.</i></b>
             </h3>
@@ -18,16 +18,15 @@ export default function ProblemStatement() {
             </p>
             <div className="flex flex-col w-full md:flex-row gap-4 justify-center items-center">
                 {storyboardNumbers.map((img) => (
-                    <div>
+                    <div key={crypto.randomUUID()}>
                         <Image
-                            key={crypto.randomUUID()}
                             className="w-full h-full object-contain"
                             {...img}
                         />
                     </div>
                 ))}
             </div>
-            <p className="absolute bottom-0 right-0 text-xs text-muted-foreground">
+            <p className="absolute bottom-0 right-0 text-xs">
                 Art by <i>Ematurist</i>
             </p>
         </section>
