@@ -7,7 +7,7 @@ const storyboardNumbers = [
     {src : "/comic/burnt-out-4.png", alt: "Streamer laying on ground face up crying with head smoking", layout: "responsive", width: 148, height: 147}
 ];
 
-export default function ProblemStatement() {
+export default function Problem() {
     return (
         <section className="relative pb-5 flex flex-col w-full justify-center items-center mx-auto">
             <h3 className="text-center">
