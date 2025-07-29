@@ -7,6 +7,7 @@ import Problem from "@/components/sections/Problem";
 import Solution from "@/components/sections/Solution";
 import Card from "@/components/ui/Card";
 import Features from "@/components/sections/Features";
+import Creators from "@/components/sections/Creators";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Problem/>
           <Solution/>
           <Features/>
+          <Creators/>
           <Footer/>
       </div>
     </div>

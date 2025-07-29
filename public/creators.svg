@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1334.31 835.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f15a24;
+      }
+
+      .cls-2 {
+        font-size: 51.41px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        fill: #fff;
+        font-family: WinnieBold-Regular, 'Winnie Bold';
+      }
+
+      .cls-3 {
+        font-size: 51.41px;
+      }
+
+      .cls-4 {
+        font-size: 51.4px;
+      }
+
+      .cls-5 {
+        font-size: 51.4px;
+      }
+
+      .cls-6 {
+        font-size: 51.4px;
+      }
+
+      .cls-7 {
+        font-size: 51.39px;
+      }
+
+      .cls-8 {
+        font-size: 51.39px;
+      }
+
+      .cls-9 {
+        font-size: 51.39px;
+      }
+
+      .cls-10 {
+        font-size: 51.42px;
+      }
+
+      .cls-11 {
+        font-size: 52.65px;
+      }
+
+      .cls-12 {
+        font-size: 52.66px;
+      }
+
+      .cls-13 {
+        font-size: 52.72px;
+      }
+
+      .cls-14 {
+        font-size: 51.55px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path d="M332.98,476l-275.53,9.73c-30.61,1.08-56.31-22.43-57.41-52.51h0c-1.1-30.08,22.82-55.34,53.43-56.42l275.53-9.73c30.61-1.08,56.31,22.43,57.41,52.51h0c1.1,30.08-22.82,55.34-53.43,56.42Z"/>
+        <text class="cls-11" transform="translate(95.22 448) rotate(-2.02) scale(1.02 1) skewX(.07)"><tspan x="0" y="0">Tori Pareno</tspan></text>
+        <ellipse class="cls-1" cx="53.67" cy="431.33" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M896.62,621.39l-247.46,21.8c-30.51,2.69-57.45-19.44-60.19-49.41h0c-2.73-29.98,19.78-56.46,50.28-59.15l247.46-21.8c30.51-2.69,57.45,19.44,60.19,49.41h0c2.73,29.98-19.78,56.46-50.28,59.15Z"/>
+        <text class="cls-12" transform="translate(684.78 603.5) rotate(-5.03) scale(1.02 1) skewX(.17)"><tspan x="0" y="0">Rikognition</tspan></text>
+        <ellipse class="cls-1" cx="642.43" cy="589.07" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M491.05,396.71l-195-52.8c-29.53-7.99-46.87-38-38.74-67.02h0c8.14-29.02,38.67-46.06,68.2-38.06l195,52.8c29.53,7.99,46.87,38,38.74,67.02h0c-8.14,29.02-38.67,46.06-68.2,38.06Z"/>
+        <text class="cls-13" transform="translate(343.63 319.12) rotate(15.15) scale(1.02 1) skewX(-.5)"><tspan x="0" y="0">MizziMie</tspan></text>
+        <path class="cls-1" d="M338.16,298.79c-4.43,15.79-21.05,25.07-37.12,20.72-16.07-4.35-25.51-20.68-21.08-36.48,4.43-15.79,21.05-25.07,37.12-20.72,16.07,4.35,25.51,20.68,21.08,36.48Z"/>
+      </g>
+      <g>
+        <path d="M1087.04,255.54l-274.81-21.9c-30.53-2.43-53.27-28.73-50.79-58.73h0c2.48-30,29.23-52.35,59.76-49.91l274.81,21.9c30.53,2.43,53.27,28.73,50.79,58.73h0c-2.48,30-29.23,52.35-59.76,49.91Z"/>
+        <text class="cls-6" transform="translate(868.51 200.57) rotate(4.56) scale(1.02 1) skewX(-.16)"><tspan x="0" y="0">CuddleCore</tspan></text>
+        <ellipse class="cls-1" cx="814.93" cy="179.18" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M493.11,644.92l-311.62-40.56c-30.36-3.95-51.72-31.34-47.69-61.18h0c4.02-29.84,31.9-50.82,62.26-46.87l311.62,40.56c30.36,3.95,51.72,31.34,47.69,61.18h0c-4.02,29.84-31.9,50.82-62.26,46.87Z"/>
+        <text class="cls-2" transform="translate(237.84 575.77) rotate(7.42) scale(1.02 1) skewX(-.26)"><tspan x="0" y="0">IHeartJustice</tspan></text>
+        <ellipse class="cls-1" cx="186.99" cy="550.09" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <rect x="104.88" y="651.92" width="603.15" height="108.99" rx="54.5" ry="54.5" transform="translate(2.88 -1.65) rotate(.23)"/>
+        <text class="cls-8" transform="translate(207.79 724.94) rotate(.23) scale(1.02 1)"><tspan x="0" y="0">James Chen (Jchensor)</tspan></text>
+        <ellipse class="cls-1" cx="158.55" cy="705.58" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M774.65,654.39h208.26c30.08,0,54.5,24.42,54.5,54.5h0c0,30.08-24.42,54.5-54.5,54.5h-208.26c-30.08,0-54.5-24.42-54.5-54.5h0c0-30.08,24.42-54.5,54.5-54.5Z" transform="translate(2.92 -3.6) rotate(.24)"/>
+        <text class="cls-8" transform="translate(822.93 727.9) rotate(.23) scale(1.02 1)"><tspan x="0" y="0">HideTone</tspan></text>
+        <ellipse class="cls-1" cx="773.69" cy="708.54" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M1221.16,740.89l-209.69-96.33c-27.74-12.75-39.72-45.18-26.75-72.44h0c12.97-27.27,45.98-39.04,73.72-26.29l209.69,96.33c27.74,12.75,39.72,45.18,26.75,72.44h0c-12.97,27.27-45.98,39.04-73.72,26.3Z"/>
+        <text class="cls-14" transform="translate(1066.98 629.24) rotate(24.67) scale(1.01 1) skewX(-.76)"><tspan x="0" y="0">VeeDotMe</tspan></text>
+        <path class="cls-1" d="M1060.53,607.05c-7.06,14.84-25.03,21.25-40.13,14.31-15.1-6.94-21.62-24.59-14.56-39.44,7.06-14.84,25.03-21.25,40.13-14.31,15.1,6.94,21.62,24.59,14.56,39.44Z"/>
+      </g>
+      <g>
+        <path d="M1139.89,539.64l-276.21-50.53c-30.11-5.51-49.97-33.96-44.37-63.54h0c5.6-29.59,34.56-49.12,64.67-43.61l276.21,50.53c30.11,5.51,49.97,33.96,44.37,63.54h0c-5.6,29.59-34.56,49.12-64.67,43.61Z"/>
+        <text class="cls-10" transform="translate(913.5 460.56) rotate(10.36) scale(1.02 1) skewX(-.35)"><tspan x="0" y="0">Papalobster</tspan></text>
+        <path class="cls-1" d="M901.61,440.71c-3.05,16.11-18.81,26.73-35.2,23.74-16.39-3-27.21-18.49-24.15-34.59s18.81-26.73,35.2-23.74c16.39,3,27.21,18.49,24.15,34.59Z"/>
+      </g>
+      <g>
+        <path d="M1283.25,372.36l-271.08,21.19c-30.53,2.39-57.25-20-59.68-50h0c-2.43-30.01,20.35-56.26,50.88-58.65l271.09-21.19c30.53-2.39,57.25,20,59.68,50h0c2.43,30.01-20.35,56.26-50.88,58.65Z"/>
+        <text class="cls-5" transform="translate(1052.82 353.38) rotate(-4.47) scale(1.02 1) skewX(.16)"><tspan x="0" y="0">Peachietech</tspan></text>
+        <ellipse class="cls-1" cx="1005.89" cy="339.49" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <rect x="413.87" y="409.43" width="344.51" height="108.99" rx="54.5" ry="54.5" transform="translate(-12.02 15.61) rotate(-1.51)"/>
+        <text class="cls-7" transform="translate(513.47 483.4) rotate(-1.51) scale(1.02 1) skewX(.05)"><tspan x="0" y="0">BasiilLeaf</tspan></text>
+        <ellipse class="cls-1" cx="467.47" cy="467.17" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M896.34,364.73l-259.73,24.13c-30.49,2.83-57.55-19.16-60.43-49.13h0c-2.88-29.97,19.5-56.55,49.99-59.39l259.73-24.13c30.49-2.83,57.55,19.16,60.43,49.13h0c2.88,29.97-19.5,56.55-49.99,59.39Z"/>
+        <text class="cls-4" transform="translate(678.31 349.62) rotate(-5.31) scale(1.02 1) skewX(.18)"><tspan x="0" y="0">AtomicMari</tspan></text>
+        <ellipse class="cls-1" cx="629.65" cy="334.71" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M471.9,157.39h210.57c30.08,0,54.5,24.42,54.5,54.5h0c0,30.08-24.42,54.5-54.5,54.5h-210.57c-30.08,0-54.5-24.42-54.5-54.5h0c0-30.08,24.42-54.5,54.5-54.5Z" transform="translate(-3.64 10.18) rotate(-1.01)"/>
+        <text class="cls-9" transform="translate(518.6 232.13) rotate(-1.01) scale(1.02 1) skewX(.04)"><tspan x="0" y="0">Cloud805</tspan></text>
+        <ellipse class="cls-1" cx="471.13" cy="213.71" rx="30.19" ry="29.66"/>
+      </g>
+      <g>
+        <path d="M846.02,108.72l-279.53,27.84c-30.47,3.04-57.68-18.78-60.77-48.72h0c-3.09-29.95,19.11-56.68,49.58-59.72L834.83.28c30.47-3.04,57.68,18.78,60.77,48.72h0c3.09,29.95-19.11,56.68-49.58,59.72Z"/>
+        <text class="cls-3" transform="translate(608.97 100.95) rotate(-7.54) scale(1.02 1) skewX(.26)"><tspan x="0" y="0">Rip (Reepal)</tspan></text>
+        <ellipse class="cls-1" cx="559.15" cy="82.48" rx="30.19" ry="29.66"/>
+      </g>
+    </g>
+  </g>
+</svg>

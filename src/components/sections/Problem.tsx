@@ -16,7 +16,7 @@ export default function Problem() {
             <p className="text-center">
                 <b>Editing takes forever, thumbnails feel random, and your channel doesn't reflect you.</b> You didn't start <br/> streaming to spend hours editing. Your Youtube should work for you not the other way around.
             </p>
-            <div className="flex flex-col w-full md:flex-row gap-4 justify-center items-center">
+            <div className="md:flex grid grid-cols-2 gap-2 w-full md:flex-row gap-4 justify-center items-center">
                 {storyboardNumbers.map((img) => (
                     <div key={crypto.randomUUID()}>
                         <Image
