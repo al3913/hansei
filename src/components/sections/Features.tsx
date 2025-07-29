@@ -7,7 +7,7 @@ export default function Features() {
                 <div className="text-left w-full">
                     <h1>Plan.</h1>
                     <h1>Produce.</h1>
-                    <h1>Publish.</h1>
+                    <h1>Publish..</h1>
                 </div>
                 <Card 
                     title="Titles & Thumbnails That Click" 
