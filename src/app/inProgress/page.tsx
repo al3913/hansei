@@ -9,7 +9,7 @@ export default function inProgress(){
                 width={200}
                 height={200}
             />
-            <h1 className="text-2xl lg:text-4xl"> This Page isn't Quite Ready Yet</h1>
+            <h1 className="text-2xl lg:text-4xl"> This Page isn&apos;t Quite Ready Yet</h1>
             <p className="text-center"> 
                 We&apos;re still editing behind the scenes. <br/>
                 Just like your VODs, good things take a little time. <br/>
