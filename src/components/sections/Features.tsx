@@ -2,7 +2,7 @@ import Card from "@/components/ui/Card";
 
 export default function Features() {
     return (
-        <div className="flex flex-col md:flex-row gap-10 w-full justify-between">
+        <div className="flex flex-col md:flex-row gap-10 m-5 w-full justify-between">
             <div className="flex flex-col items-center justify-center gap-10">
                 <div className="text-left w-full">
                     <h1 className="font-bold">Plan.</h1>
