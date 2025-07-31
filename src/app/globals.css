@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Moisette';
   src: url('/fonts/moisette/Moisette-BoldItalic.otf') format('opentype');
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
 }
 
@@ -31,7 +31,7 @@
 @font-face {
   font-family: 'Moisette';
   src: url('/fonts/moisette/Moisette-Italic.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
@@ -52,7 +52,7 @@
 @font-face {
   font-family: 'TTHoves';
   src: url('/fonts/tthoves/TT Hoves Bold.otf') format('opentype');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -80,28 +80,28 @@
 @font-face {
   font-family: 'TTHoves';
   src: url('/fonts/tthoves/TT Hoves Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Winnie';
   src: url('/fonts/winnie/Winnie_Reg.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Winnie';
   src: url('/fonts/winnie/WinnieBold.otf') format('opentype');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Winnie';
   src: url('/fonts/winnie/WinnieThin.otf') format('opentype');
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
 }
 
