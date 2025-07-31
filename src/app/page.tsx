@@ -9,7 +9,7 @@ import Creators from "@/components/sections/Creators";
 export default function Home() {
   return (
     <div className="bg-brandWhite">
-      <div className="flex min-h-screen max-w-screen-lg flex-col items-center justify-between mx-20">
+      <div className="flex min-h-screen max-w-screen-lg flex-col items-center justify-between mx-auto p-5">
           <Header/>
           <Hero/>
           <Problem/>
