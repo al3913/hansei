@@ -7,7 +7,7 @@ export default function Creators() {
                 <h2>Creator</h2>
                 <h1>Roster.</h1>
                 <p>
-                    A curated list of creators we've <br/>
+                    A curated list of creators we&apos;ve <br/>
                     partnered with, past and present.
                 </p>
             </div>

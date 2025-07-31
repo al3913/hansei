@@ -5,7 +5,7 @@ export default function Hero() {
         <section className="bg-[url('/hero-box.svg')] w-full aspect-[1072/617] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center">
             <h1 className="text-brandWhite text-3xl "> You Stream.</h1>
             <h2 className="text-brandWhite font-moisette"> We Grow Your Youtube.</h2>
-            <Button className="mt-4 rounded-"actionType="booking"> See My Channel's Potential</Button>
+            <Button className="mt-4 rounded-"actionType="booking"> See My Channel&apos;s Potential</Button>
         </section>
     );
 }

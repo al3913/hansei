@@ -11,7 +11,7 @@ export default function Header(){
               width={50}
               height={50}
             />
-            <Button variant="secondary" className="rounded-full font-bold py-6 px-8" actionType="booking"> Let's Chat! </Button>
+            <Button variant="secondary" className="rounded-full font-bold py-6 px-8" actionType="booking"> Let&apos;s Chat! </Button>
           </header>
     );
 }

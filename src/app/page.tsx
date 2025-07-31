@@ -1,11 +1,8 @@
-import Image from "next/image";
 import {Footer} from "@/components/sections/Footer";
-import { Button } from "@/components/ui/button";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import Solution from "@/components/sections/Solution";
-import Card from "@/components/ui/Card";
 import Features from "@/components/sections/Features";
 import Creators from "@/components/sections/Creators";
 

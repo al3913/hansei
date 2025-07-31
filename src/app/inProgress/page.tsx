@@ -11,9 +11,9 @@ export default function inProgress(){
             />
             <h1 className="text-2xl lg:text-4xl"> This Page isn't Quite Ready Yet</h1>
             <p className="text-center"> 
-                We’re still editing behind the scenes. <br/>
+                We&apos;re still editing behind the scenes. <br/>
                 Just like your VODs, good things take a little time. <br/>
-                In the meantime, keep streaming... we’ve got the rest. 
+                In the meantime, keep streaming... we&apos;ve got the rest. 
             </p>
         </div>
     )
