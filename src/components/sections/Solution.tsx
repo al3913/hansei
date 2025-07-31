@@ -10,15 +10,17 @@ const storyboardNumbers = [
 
 export default function Solution() {
     return (
-        <section className="relative pb-5 flex items-center justify-center gap-4">
-            <div className="flex flex-col justify-center items-start text-xs md:text-sm w-1/2">
-                <h2 className="text-left"> Your dream </h2>
-                <h1> Outcome. </h1>
-                <p><b>We turn your Twitch Streams into videos that work for you. Even when you&apos;re offline.</b></p>
+        <section className="relative my-5 pb-5 flex items-center justify-center gap-4">
+            <div className="flex flex-col justify-center items-start text-xs md:text-sm w-1/2 gap-4">
+                <div>
+                    <h2 className="text-left font-bold"> Your dream </h2>
+                    <h1 className="text-brandBlue font-moisette font-extrabold"> Outcome. </h1>
+                </div>
+                <p className="text-md"><b>We turn your Twitch Streams into videos that work for you. Even when you&apos;re offline.</b></p>
                 <p> Your content will keep building views, subs, and income while you focus on streaming. </p>
-                <Button variant="default" actionType="booking" className="inline-flex items-center gap-1 text-xs md:text-base"><p>Show me what is <i>Possible</i></p></Button>
+                <Button variant="default" actionType="booking" className="inline-flex items-center gap-1 text-xs md:text-base"><p className="text-xs font-bold">Show me what is <i className="font-moisette font-extrabold">Possible</i></p></Button>
             </div>
-            <div className="relative grid grid-cols-2 gap-2 pl-10 w-1/2">
+            <div className="relative flex flex-col md:grid md:grid-cols-2 gap-2 pl-10 w-1/2">
                 {storyboardNumbers.map((img) => (
                     <div className="h-4/5" key={crypto.randomUUID()}>
                         <Image
