@@ -4,7 +4,7 @@ export default function inProgress(){
     return (
         <div className = "flex flex-col items-center justify-center min-h-screen p-5 gap-4 bg-brandWhite">
             <Image
-                src="/mascot-sweat.png"
+                src="/mascot/mascot-sweat.png"
                 alt="Hansei Logo"
                 width={200}
                 height={200}

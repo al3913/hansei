@@ -7,11 +7,114 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'Moisette';
+  src: url('/fonts/moisette/Moisette-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Moisette';
+  src: url('/fonts/moisette/Moisette-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Moisette';
+  src: url('/fonts/moisette/Moisette-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Moisette';
+  src: url('/fonts/moisette/Moisette-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Moisette';
+  src: url('/fonts/moisette/Moisette-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves DemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/tthoves/TT Hoves Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Winnie';
+  src: url('/fonts/winnie/Winnie_Reg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Winnie';
+  src: url('/fonts/winnie/WinnieBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Winnie';
+  src: url('/fonts/winnie/WinnieThin.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
 @theme {
   --color-brandWhite: #FFFBF2;
   --color-brandYellow: #FFF242;
   --color-brandBlue: #2ABEE3;
   --color-brandRed: #FD7C68;
+  --font-moisette: 'Moisette', sans-serif;
+  --font-tthoves: 'TTHoves', sans-serif;
+  --font-winnie: 'Winnie', sans-serif;
 }
 
 @theme inline {

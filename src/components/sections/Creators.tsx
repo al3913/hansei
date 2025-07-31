@@ -16,7 +16,7 @@ export default function Creators() {
                 alt="Creator Roster - Reepal, Cloud805, CuddleCore, MizziMie, AtomicMari, PeachieTech, Tori Pareno, BasiilLeaf, Papalobster, IHeartJustice, Rikognition, VeeDotMe, James Chen (Jchensor), HideTone"
                 width={1000}
                 height={500}
-                className=""
+                className="font-winnie"
             />
         </section>
     )
