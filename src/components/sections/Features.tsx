@@ -5,9 +5,9 @@ export default function Features() {
         <div className="flex flex-col md:flex-row gap-10 w-full justify-between">
             <div className="flex flex-col items-center justify-center gap-10">
                 <div className="text-left w-full">
-                    <h1>Plan.</h1>
-                    <h1>Produce.</h1>
-                    <h1>Publish.</h1>
+                    <h1 className="font-bold">Plan.</h1>
+                    <h1 className="font-bold">Produce.</h1>
+                    <h1 className="font-extrabold font-moisette text-brandBlue">Publish.</h1>
                 </div>
                 <Card 
                     title="Titles & Thumbnails That Click" 
