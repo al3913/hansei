@@ -5,6 +5,7 @@ import Problem from "@/components/sections/Problem";
 import Solution from "@/components/sections/Solution";
 import Features from "@/components/sections/Features";
 import Creators from "@/components/sections/Creators";
+import Benefits from "@/components/sections/Benefits";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Solution/>
           <Features/>
           <Creators/>
+          <Benefits/>
           <Footer/>
       </div>
     </div>
