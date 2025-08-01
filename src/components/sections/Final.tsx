@@ -12,9 +12,9 @@ export default function Final() {
                 <h1 className="font-extrabold font-moisette text-brandBlue text-[84px] -mr-2 -mt-2 md:-mt-0"> Potential. </h1>
             </div>
 
-            <h3 className="font-moisette font-extrabold text-2xl mt-10"> Let's Unlock It Together! </h3>
+            <h3 className="font-moisette font-extrabold text-2xl mt-10"> Let&apos;s Unlock It Together! </h3>
             <p className="my-3">
-                Stop leaving views and growth on the table. Let's chat and figure 
+                Stop leaving views and growth on the table. Let&apos;s chat and figure 
                 <br className="hidden md:block"/>out how we can grow your channel without the extra stress.
             </p>
             <Button variant="default" actionType="booking" className="inline-flex items-center gap-1 -m-1 mt-1 p-6"><p className="text-lg font-bold">See my Channel&apos;s <i className="font-moisette font-extrabold">Potential</i></p></Button>
