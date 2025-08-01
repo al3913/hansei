@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin} from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 interface FooterProps {
@@ -27,39 +27,40 @@ interface FooterProps {
 }
 
 const defaultSections = [
-  {
-    title: "Product",
-    links: [
-      { name: "Overview", href: "#" },
-      { name: "Pricing", href: "#" },
-      { name: "Marketplace", href: "#" },
-      { name: "Features", href: "#" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
-      { name: "About", href: "#" },
-      { name: "Team", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Careers", href: "#" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { name: "Help", href: "#" },
-      { name: "Sales", href: "#" },
-      { name: "Advertise", href: "#" },
-      { name: "Privacy", href: "#" },
-    ],
-  },
+  // {
+  //   title: "Product",
+  //   links: [
+  //     { name: "Overview", href: "#" },
+  //     { name: "Pricing", href: "#" },
+  //     { name: "Marketplace", href: "#" },
+  //     { name: "Features", href: "#" },
+  //   ],
+  // },
+  // {
+  //   title: "Company",
+  //   links: [
+  //     { name: "About", href: "#" },
+  //     { name: "Team", href: "#" },
+  //     { name: "Blog", href: "#" },
+  //     { name: "Careers", href: "#" },
+  //   ],
+  // },
+  // {
+  //   title: "Resources",
+  //   links: [
+  //     { name: "Help", href: "#" },
+  //     { name: "Sales", href: "#" },
+  //     { name: "Advertise", href: "#" },
+  //     { name: "Privacy", href: "#" },
+  //   ],
+  // },
 ];
 
 const defaultSocialLinks = [
-  { icon: <FaInstagram className="size-5" />, href: "https://www.instagram.com/hansei_gg/", label: "Instagram" },
-  { icon: <FaXTwitter className="size-5" />, href: "https://x.com/Hansei_GG", label: "X" },
-  { icon: <FaLinkedin className="size-5" />, href: "https://www.linkedin.com/company/hansei-gg/", label: "LinkedIn" },
+  { icon: <FaXTwitter className="size-5 md:size-8" />, href: "https://x.com/XenosKing", label: "X" },
+  { icon: <FaYoutube className="size-5 md:size-8" />, href: "https://youtube.com/@peterlamxk?si=f7odlZ0Z5uIJ_x_Q", label: "Instagram" },
+  { icon: <FaInstagram className="size-5 md:size-8" />, href: "https://www.instagram.com/xenosking/", label: "Instagram" },
+  { icon: <FaLinkedin className="size-5 md:size-8" />, href: "https://www.linkedin.com/in/xenosking/", label: "LinkedIn" },
 ];
 
 const defaultLegalLinks = [
@@ -81,23 +82,15 @@ const Footer = ({
   legalLinks = defaultLegalLinks,
 }: FooterProps) => {
   return (
-    <section className="py-32">
+    <section className="py-32 w-full">
       <div className="container">
         <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
           <div className="flex w-full flex-col justify-between gap-6 lg:items-start">
             {/* Logo */}
             <div className="flex items-center gap-2 lg:justify-start">
-              <a href={logo.url}>
-                <img
-                  src={logo.src}
-                  alt={logo.alt}
-                  title={logo.title}
-                  className="h-8"
-                />
-              </a>
-              <h2 className="text-xl font-semibold">{logo.title}</h2>
+              <h2 className="text-3xl font-semibold">{logo.title}</h2>
             </div>
-            <p className="text-muted-foreground max-w-[70%] text-sm">
+            <p className="text-muted-foreground max-w-[70%] text-lg">
               {description}
             </p>
             <ul className="text-muted-foreground flex items-center space-x-6">
@@ -129,14 +122,14 @@ const Footer = ({
           </div>
         </div>
         <div className="text-muted-foreground mt-8 flex flex-col justify-between gap-4 border-t py-8 text-xs font-medium md:flex-row md:items-center md:text-left">
-          <p className="order-2 lg:order-1">{copyright}</p>
-          <ul className="order-1 flex flex-col gap-2 md:order-2 md:flex-row">
+          <p className="order-2 lg:order-1 text-base">{copyright}</p>
+          {/* <ul className="order-1 flex flex-col gap-2 md:order-2 md:flex-row">
             {legalLinks.map((link, idx) => (
               <li key={idx} className="hover:text-primary">
                 <a href={link.href}> {link.name}</a>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

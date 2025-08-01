@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header(){
     return (
         <header className="flex w-full items-center justify-between mx-12 my-5">
-            <Button variant="link" className="rounded-full font-tthoves text-xl sm:text-2xl font-extrabold p-0" actionType="inProgress"> Hansei.GG </Button>
+            <Button variant="link" className="rounded-full font-tthoves text-xl sm:text-2xl font-extrabold p-0" actionType="home"> Hansei.GG </Button>
             <Image
               src="mascot/mascot.svg"
               alt="Hansei Logo"

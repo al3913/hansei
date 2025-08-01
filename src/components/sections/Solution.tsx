@@ -2,10 +2,10 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const storyboardNumbers = [
-    {src : "/comic/burnt-out-1.png", alt: "Streamer streaming", layout: "responsive", width: 148, height: 147},
-    {src : "/comic/burnt-out-2.png", alt: "Streamer editing, background clock ticking/moving", layout: "responsive", width: 148, height: 147},
-    {src : "/comic/burnt-out-3.png", alt: "Streamer streaming but looking burnt out", layout: "responsive", width: 148, height: 147},
-    {src : "/comic/burnt-out-4.png", alt: "Streamer laying on ground face up crying with head smoking", layout: "responsive", width: 148, height: 147}
+    {src : "/comic/1-solution.png", alt: "Streamer streaming", layout: "responsive", width: 148, height: 147},
+    {src : "/comic/2-solution.png", alt: "Streamer on call with Hansei", layout: "responsive", width: 148, height: 147},
+    {src : "/comic/3-solution.png", alt: "Streamer streaming while Hansei is creating videos", layout: "responsive", width: 148, height: 147},
+    {src : "/comic/4-solution.png", alt: "Streamer celebrating their growth", layout: "responsive", width: 148, height: 147}
 ];
 
 export default function Solution() {

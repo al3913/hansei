@@ -6,6 +6,7 @@ import Solution from "@/components/sections/Solution";
 import Features from "@/components/sections/Features";
 import Creators from "@/components/sections/Creators";
 import Benefits from "@/components/sections/Benefits";
+import Final from "@/components/sections/Final";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Features/>
           <Creators/>
           <Benefits/>
+          <Final/>
           <Footer/>
       </div>
     </div>
