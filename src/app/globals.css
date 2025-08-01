@@ -110,7 +110,7 @@
 @theme {
   --color-brandWhite: #FFFBF2;
   --color-brandYellow: #FFF242;
-  --color-brandBlue: #2ABEE3;
+  --color-brandBlue: #2B8EE3;
   --color-brandRed: #FD7C68;
   --font-moisette: 'Moisette', sans-serif;
   --font-tthoves: 'TTHoves', sans-serif;
@@ -247,6 +247,6 @@
   }
 
   p{
-    @apply text-lg;
+    @apply text-base md:text-lg;
   }
 }

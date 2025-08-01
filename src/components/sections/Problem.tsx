@@ -10,13 +10,13 @@ const storyboardNumbers = [
 export default function Problem() {
     return (
         <section className="relative m-5 pb-5 flex flex-col w-full justify-center items-center mx-aut gap-5">
-            <h3 className="text-center">
+            <h2 className="text-center text-xl md:text-2xl">
                 You&apos;re <b><i>streaming regularly</i></b>, but <b><i>Youtube feels overwhelming.</i></b>
-            </h3>
+            </h2>
             <p className="text-center">
                 <b>Editing takes forever, thumbnails feel random, and your channel doesn&apos;t reflect you.</b> You didn&apos;t start streaming to spend hours editing. Your Youtube should work for you not the other way around.
             </p>
-            <div className="md:flex grid grid-cols-2 w-full md:flex-row gap-4 p-2 justify-center items-center">
+            <div className="md:flex grid grid-cols-2 w-full md:flex-row gap-4 justify-center items-center">
                 {storyboardNumbers.map((img) => (
                     <div key={crypto.randomUUID()}>
                         <Image
@@ -26,7 +26,7 @@ export default function Problem() {
                     </div>
                 ))}
             </div>
-            <p className="absolute bottom-0 right-0 text-xs">
+            <p className="absolute bottom-0 right-0 text-[10px] md:text-xs">
                 Art by <i>Ematurist</i>
             </p>
         </section>

@@ -1,18 +1,21 @@
 import Image from "next/image"
 import Tile from "@/components/ui/Tile";
 
+// The Potential on one line Mobile
+// Title larger
+
 export default function Benefits() {
     return(
         <section className="relative m-5 flex flex-col gap-10 w-full justify-center items-center min-h-[700px]">
             <div className="md:absolute md:top-0 md:left-0 flex flex-col justify-center gap-5 text-start">
-                <div className="flex flex-col w-fit justify-center items-center">
-                    <h2 className="mb-0 leading-none font-bold">The</h2>
-                    <h1 className="mt-0 leading-none text-brandBlue font-moisette font-extrabold">Potential.</h1>
+                <div className="flex flex-col md:w-fit justify-center items-center">
+                    <h2 className="mb-0 leading-none text-4xl font-bold">The</h2>
+                    <h1 className="-mt-4 leading-none text-7xl text-brandBlue font-moisette font-extrabold">Potential.</h1>
                 </div>
-                <p>
+                <p className="text-center md:text-left px-5">
                     What happens when your stream becomes
                     <br className="hidden md:block"/> a brand, and your content keeps working
-                    <br className="hidden md:block"/>even when you&apos;re offline.
+                    <br className="hidden md:block"/> even when you&apos;re offline.
                 </p>
             </div>
             <div className="md:absolute md:bottom-0 md:grid md:grid-cols-3 md:grid-rows-2 flex flex-col gap-8">
