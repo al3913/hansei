@@ -26,7 +26,7 @@ interface FooterProps {
   }>;
 }
 
-const defaultSections = [
+const defaultSections: { title: string; links: Array<{ name: string; href: string; }>; }[] | undefined = [
   // {
   //   title: "Product",
   //   links: [
