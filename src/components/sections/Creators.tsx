@@ -7,8 +7,8 @@ export default function Creators() {
         <section className="relative m-12 flex flex-col w-full justify-center items-center md:min-h-[575px] gap-5">
             <div className="md:absolute md:top-0 md:left-0 flex flex-col w-full justify-start gap-2 md:gap-5 text-start">
                 <div className="flex flex-row md:flex-col">
-                    <h2 className="md:-mb-2 leading-none font-bold text-[56px] md:text-6xl">Creator</h2>
-                    <h1 className="mt-0 leading-none text-brandRed font-moisette text-6xl md:text-7xl font-extrabold">Roster.</h1>
+                    <h2 className="md:-mb-2 leading-none font-bold text-5xl md:text-6xl">Creator</h2>
+                    <h1 className="mt-0 leading-none text-brandRed font-moisette text-[56px] md:text-7xl font-extrabold">Roster.</h1>
                 </div>
                 <p className="ml-1 md:ml-0">
                     A curated list of creators <br className="block md:hidden"/> we&apos;ve <br className="hidden md:block"/>
