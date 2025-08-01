@@ -1,6 +1,7 @@
 import React from "react";
 import { FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 
 interface FooterProps {
   logo?: {
@@ -84,7 +85,7 @@ const Footer = ({
   return (
     <section className="py-32 w-full">
       <div className="container">
-        <div className="flex w-full flex-col justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
+        <div className="flex w-full flex-row justify-between gap-10 lg:flex-row lg:items-start lg:text-left">
           <div className="flex w-full flex-col justify-between gap-6 lg:items-start">
             {/* Logo */}
             <div className="flex items-center gap-2 lg:justify-start">
@@ -119,6 +120,14 @@ const Footer = ({
                 </ul>
               </div>
             ))}
+            </div>
+            <div>
+              <Image
+                src="mascot/mascot-hi.svg"
+                alt="mascot waving"
+                width={500}
+                height={500}
+              />
           </div>
         </div>
         <div className="text-muted-foreground mt-8 flex flex-col justify-between gap-4 border-t py-8 text-xs font-medium md:flex-row md:items-center md:text-left">
