@@ -23,7 +23,7 @@ export default function Solution() {
                     </b>
                 </p>
                 <p> 
-                    Your content will keep building views, subs, and 
+                    Your content will keep building views, subs, and&nbsp;
                     <br className="hidden md:block"/>income while you focus on streaming. 
                 </p>
                 <Button variant="default" actionType="booking" className="inline-flex items-center gap-1 -m-1 mt-1 p-6"><p className="text-sm md:text-base font-bold">Show me what is <i className="font-moisette font-extrabold">Possible</i></p></Button>
