@@ -1,11 +1,9 @@
-
-export default function BlueLine(props : React.SVGProps<SVGSVGElement>) {
+export default function BlueLine({className} : React.SVGProps<SVGSVGElement>) {
     return (
             <svg
-                {...props}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 3859.27 517.63"
-                className="w-full h-auto z-0"
+                className={`h-auto z-[-1] overflow-hidden absolute ${className}`}
             >
                 <g id="Layer_1-2" data-name="Layer 1">
                 <path
