@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Hansei.GG",
     description: "Helping creators make a living doing what they love.",
-    images: ["/mascot/mascot-twitter.png?v=2"],
+    images: ["/mascot/mascot-twitter.png"],
   },
   icons: {
     icon: "/mascot/mascot_.png",
