@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Hansei.GG",
   description: "Hansei.GG - Helping creators make a living doing what they love",
   icons: {
-    icon: "/mascot/colored-mascot.svg",
+    icon: "/mascot/mascot-note-taking-svg.svg",
   },
 };
 
