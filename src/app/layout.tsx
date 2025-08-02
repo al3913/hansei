@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Hansei.GG",
     description: "Helping creators make a living doing what they love.",
-    images: ["/mascot/mascot-twitter.png"],
+    images: ["/mascot/mascot-twitter.png?v=2"],
   },
   icons: {
     icon: "/mascot/mascot_.png",
