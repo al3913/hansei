@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Helping creators make a living doing what they love.",
     images: [
       {
-        url: "/mascot/colored-mascot.svg", // Use a PNG or JPG, not SVG
+        url: "/mascot/mascot_.png", // Use a PNG or JPG, not SVG
         width: 1200,
         height: 630,
         alt: "Hansei mascot",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hansei.GG",
     description: "Helping creators make a living doing what they love.",
-    images: ["/mascot/colored-mascot.svg"],
+    images: ["/mascot/mascot_.png"],
   },
   icons: {
     icon: "/mascot/mascot-note-taking-svg.svg",
