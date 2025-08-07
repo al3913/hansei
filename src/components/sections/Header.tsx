@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Header(){
+export default function Header( {className, ...props} : React.HTMLAttributes<HTMLElement>){
     return (
-        <header className="flex w-full items-center justify-between mx-12 my-5">
+      <header className={`flex w-full bg-brandWhite items-center justify-between px-5 md:px-10 py-5 border-2 ${className}`} {...props}>
             <Button variant="link" className="rounded-full font-tthoves text-xl sm:text-2xl font-extrabold p-0" actionType="home"> Hansei.GG </Button>
             <Image
               src="mascot/mascot.svg"
