@@ -15,7 +15,7 @@ import YellowLine from "@/components/decorations/YellowLine";
 export default function Home() {
   return (
     <div className="relative bg-brandWhite z-0 overflow-x-hidden">
-      <div className="absolute inset-0 -mt-15">
+      <div className="absolute inset-0 z-[-1] -mt-15">
         <RedLine className="top-225 scale-600 md:scale-150 md:top-250"/>
         <BlueLine className="top-430 scale-450 md:top-410 md:scale-170 md:-rotate-3"/>
         <RedLine className="top-610 md:top-630 scale-600 md:scale-150 -rotate-15"/>
