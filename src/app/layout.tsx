@@ -39,6 +39,7 @@ export default function RootLayout({
         className={`font-tthoves antialiased`}
       >
         {children}
+        <Analytics/>
       </body>
     </html>
   );
