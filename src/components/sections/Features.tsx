@@ -1,11 +1,13 @@
 import Card from "@/components/ui/Card";
-
-// Plan Produce Publish on one line for mobile
-// Publish a little bigger
+import RedLine from "../decorations/RedLine";
+import BlueLine from "../decorations/BlueLine";
 
 export default function Features() {
     return (
-        <div className="flex flex-col md:flex-row gap-15 m-5 w-full justify-between">
+        <div className="relative flex flex-col md:flex-row gap-15 m-5 w-full justify-between">
+            <RedLine className="scale-600 md:scale-300 -rotate-15 top-[27%] md:top-[85%] lg:top-[78%] lg:-rotate-10"/>
+            <BlueLine className="block md:hidden scale-600 rotate-15 top-[60%]"/>
+            <RedLine className="block md:hidden scale-600 bottom-0 translate-y-3/4"/>
             <div className="flex flex-col items-center justify-center gap-15">
                 <div className="text-center w-full flex justify-center md:items-start flex-col gap-0">
                     <div className="flex md:flex-col justify-center items-center md:justify-start md:items-start">

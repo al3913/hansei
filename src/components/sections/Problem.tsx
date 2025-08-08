@@ -18,7 +18,7 @@ export default function Problem() {
                 <b>Editing takes forever, thumbnails feel random, and your channel doesn&apos;t reflect you.</b> You didn&apos;t start streaming to spend hours editing. Your Youtube should work for you not the other way around.
             </p>
             <div className="relative md:flex grid grid-cols-2 w-full md:flex-row gap-4 justify-center items-center">
-                <RedLine className="w-[110vw] -translate-x-1/2 left-1/2"/>
+                <RedLine className="max-h-9/10 scale-300"/>
                 {storyboardNumbers.map((img) => (
                     <div key={crypto.randomUUID()}>
                         <Image
