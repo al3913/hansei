@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RedLine from "../decorations/RedLine";
 
 const storyboardNumbers = [
     {src : "/comic/burnt-out-1.png", alt: "Streamer streaming", layout: "responsive", width: 148, height: 147},
@@ -16,7 +17,8 @@ export default function Problem() {
             <p className="text-center">
                 <b>Editing takes forever, thumbnails feel random, and your channel doesn&apos;t reflect you.</b> You didn&apos;t start streaming to spend hours editing. Your Youtube should work for you not the other way around.
             </p>
-            <div className="md:flex grid grid-cols-2 w-full md:flex-row gap-4 justify-center items-center">
+            <div className="relative md:flex grid grid-cols-2 w-full md:flex-row gap-4 justify-center items-center">
+                <RedLine className="w-[110vw] -translate-x-1/2 left-1/2"/>
                 {storyboardNumbers.map((img) => (
                     <div key={crypto.randomUUID()}>
                         <Image
