@@ -1,10 +1,11 @@
 import Image from "next/image"
-
+import YellowLine from "../decorations/YellowLine"
 // Creator Roster on one line for mobile
 
 export default function Creators() {
     return(
         <section className="relative m-12 flex flex-col w-full justify-center items-center md:min-h-[575px] gap-5">
+            <YellowLine className="scale-600 md:scale-300 bottom-0 translate-y-4/4 md:translate-y-2/4 lg:translate-y-1/4"/>
             <div className="md:absolute md:top-0 md:left-0 flex flex-col w-full justify-start gap-2 md:gap-5 text-start">
                 <div className="flex flex-row md:flex-col">
                     <h2 className="md:-mb-2 leading-none font-bold text-5xl md:text-6xl">Creator</h2>
@@ -15,7 +16,7 @@ export default function Creators() {
                     worked with, <br className="block md:hidden"/> past and present.
                 </p>
             </div>
-            <div className="md:absolute md:bottom-0 md:right-0 w-full md:w-9/10 -mt-10">
+            <div className="md:absolute md:bottom-15/100 lg:bottom-0 md:right-0 w-full md:w-9/10 -mt-10">
                 <Image 
                 src="/creators.svg"
                 alt="Creator Roster - Reepal, Cloud805, CuddleCore, MizziMie, AtomicMari, PeachieTech, Tori Pareno, BasiilLeaf, Papalobster, IHeartJustice, Rikognition, VeeDotMe, James Chen (Jchensor), HideTone"
