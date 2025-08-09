@@ -20,7 +20,7 @@ export default function Problem() {
             <div className="relative md:flex grid grid-cols-2 w-full md:flex-row gap-4 justify-center items-center">
                 <RedLine className="max-h-9/10 scale-300"/>
                 {storyboardNumbers.map((img) => (
-                    <div key={crypto.randomUUID()}>
+                    <div key={crypto.randomUUID()} className="md:flex-1">
                         <Image
                             className="w-full h-full object-contain"
                             {...img}
