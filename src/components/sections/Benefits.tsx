@@ -1,12 +1,13 @@
 import Image from "next/image"
 import Tile from "@/components/ui/Tile";
-
+import BlueLine from "../decorations/BlueLine";
 // The Potential on one line Mobile
 // Title larger
 
 export default function Benefits() {
     return(
-        <section className="relative my-5 flex flex-col gap-8 w-full justify-center items-center min-h-[700px]">
+        <section className="relative my-12 flex flex-col gap-8 w-full justify-center items-center min-h-[700px]">
+            <BlueLine className="bottom-0 translate-y-9/4 md:translate-y-5/4 lg:translate-y-9/8 rotate-5 scale-600 md:scale-300 lg:scale-250"/>
             <div className="md:absolute md:top-0 md:left-0 flex flex-col justify-center gap-5 text-start">
                 <div className="flex flex-col md:w-fit justify-center items-center">
                     <h2 className="mb-0 leading-none text-4xl font-bold">The</h2>

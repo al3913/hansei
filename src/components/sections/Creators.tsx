@@ -5,7 +5,7 @@ import YellowLine from "../decorations/YellowLine"
 export default function Creators() {
     return(
         <section className="relative m-12 flex flex-col w-full justify-center items-center md:min-h-[575px] gap-5">
-            <YellowLine className="scale-600 md:scale-300 bottom-0 translate-y-4/4 md:translate-y-2/4 lg:translate-y-1/4"/>
+            <YellowLine className="scale-600 md:scale-300 bottom-0 translate-y-8/4 md:translate-y-3/4 lg:translate-y-2/4"/>
             <div className="md:absolute md:top-0 md:left-0 flex flex-col w-full justify-start gap-2 md:gap-5 text-start">
                 <div className="flex flex-row md:flex-col">
                     <h2 className="md:-mb-2 leading-none font-bold text-5xl md:text-6xl">Creator</h2>
