@@ -1,5 +1,5 @@
 
-type CardProps = {
+export type CardProps = {
     title : string;
     body : string;
     angle : 'left' | 'right';
