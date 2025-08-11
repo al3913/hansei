@@ -15,7 +15,7 @@ const rotations : Record<CardProps['angle'], string> = {
 
 export default function Tile({title, body, angle, className} : CardProps){
     return (
-        <div className={`border-3 border-brandBlue rounded-[20%] max-w-3xs md:max-w-[14rem] lg:max-w-3xs h-75 items-center justify-around flex flex-col ${className} ${rotations[angle]}`}>
+        <div className={`border-3 border-brandBlue rounded-[20%] max-w-3xs h-75 items-center justify-around flex flex-col ${className} ${rotations[angle]}`}>
             <h3 className="w-full text-center text-4xl/7 md:text-3xl p-6 pb-0 font-winnie font-extrabold">
                 {title}
             </h3>
