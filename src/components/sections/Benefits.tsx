@@ -7,7 +7,7 @@ import BlueLine from "../decorations/BlueLine";
 export default function Benefits() {
     return(
         <section className="relative my-12 flex flex-col gap-8 w-full justify-center items-center min-h-[700px]">
-            <BlueLine className="bottom-0 translate-y-9/4 md:translate-y-5/4 lg:translate-y-9/8 rotate-5 scale-600 md:scale-300 lg:scale-250"/>
+            <BlueLine className="bottom-0 translate-y-9/4 md:translate-y-2/4 lg:translate-y-9/8 rotate-5 md:rotate-15 lg:rotate-5 scale-600 md:scale-300 lg:scale-250"/>
             <div className="md:absolute md:top-0 md:left-0 flex flex-col justify-center gap-5 text-start">
                 <div className="flex flex-col md:w-fit justify-center items-center">
                     <h2 className="mb-0 leading-none text-4xl font-bold">The</h2>
@@ -19,7 +19,7 @@ export default function Benefits() {
                     <br className="hidden md:block"/> even when you&apos;re offline.
                 </p>
             </div>
-            <div className="md:absolute md:bottom-0 md:grid md:grid-cols-3 md:grid-rows-2 flex flex-col gap-8">
+            <div className="md:absolute md:bottom-0 md:-translate-y-10 md:translate-x-15 lg:translate-0 md:scale-80 lg:scale-100 md:grid md:grid-cols-3 md:grid-rows-2 flex flex-col gap-8">
                 <Tile
                     title="Build a Lasting Brand"
                     body="Create content that lives beyond your livestream."
